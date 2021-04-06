@@ -1,1 +1,1 @@
-browser-sync start --server --files "*"
+npx browser-sync start --server --files "*"

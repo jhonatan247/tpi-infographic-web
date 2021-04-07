@@ -14,7 +14,11 @@ const modals = [
     body:
       'Ciudades en todo el mundo ven como un complemento a los sistemas BRT la implementación de un sistema Metro, especialmente cuando la demanda supera los picos de 40.000 pasajeros hora/sentido. “Sin embargo, optar por un Tren a Nivel (Tren Ligero o Tranvía) o simples Carriles de Buses es anacrónico."',
   },
-  { title: "lorem", body: "sdsdf sdf sdf sd fgsgsgsdgfsdfsdfsdf" },
+  {
+    title: "Alternativas de transporte en el mundo",
+    body:
+      "La ciudad pionera en el transporte compartido en el mundo fue Amsterdam, que en 1965 inauguró el primer modelo de transporte público de bicicletas compartidas. Desde ese momento, se ha iterado en este modelo hasta hoy, donde ciudades como Munich, París, Barcelona y Ciudad de México poseen modelos de bicicletas públicas compartidas que han desembocado en un mayor uso de vías públicas, disminución de emisión de gases de invernadero, y una mejora en salud pública.",
+  },
   { title: "lorem", body: "sdsdf sdf sdf sd fgsgsgsdgfsdfsdfsdf" },
   { title: "lorem", body: "sdsdf sdf sdf sd fgsgsgsdgfsdfsdfsdf" },
 ];

@@ -134,15 +134,12 @@ const modals = [
     title: "Política",
     body: `
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 center-v">
         <p>
         En materia de política pública la movilidad es uno de los principales puntos de interés de cualquier administración de la ciudad, para cuyo mejoramiento deben articularse tanto políticas previas como actuales de acuerdo con los principios adoptados según iniciativas como la iniciativa Visión Cero, y los objetivos establecidos en planes organizacionales de largo plazo como lo son el Plan Maestro de Movilidad y el Plan Distrital de Desarrollo.
         </p>
       </div>
       <div class="col-6">
-        <img
-          class="w-100"
-          src="media/VisionCerologo.png"/>
           <img class="w-100" src="media/politica.PNG"/>
       </div>
     </div>
@@ -171,7 +168,7 @@ const modals = [
     title: "Social",
     body: `
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 center-v">
         <p>
         En relación con el uso de medios de transporte diferentes a los medios motorizados convencionales para viajes intermodales es posible evidenciar que existe una adopción mínima de medios como las patinetas y bicitaxis y otros medios de transporte, los cuales en conjunto corresponden a sólo el 1,5% de las etapas de viaje de los ciudadanos, de acuerdo con los resultados de la encuesta de movilidad 2019.
         </p>
@@ -186,15 +183,17 @@ const modals = [
     title: "Tecnología",
     body: `
     <div class="row">
-      <div class="col-6">
-        <p>
-        En relación con el transporte público hay información detallada sobre el tamaño de su flota y la tecnología utilizada. De acuerdo con lo presentado por Transmilenio S.A en su informe de estadísticas de oferta y demanda a febrero de 2021, la flota se compone de:
-          </p>
-        <ul>
-        <li>2357 buses de servicio troncal</li>
-        <li>931 buses alimentadores</li>
-        <li>6174 buses de servicio zonal.</li>
-        </ul>
+      <div class="col-6 center-v">
+        <div>
+          <p>
+          En relación con el transporte público hay información detallada sobre el tamaño de su flota y la tecnología utilizada. De acuerdo con lo presentado por Transmilenio S.A en su informe de estadísticas de oferta y demanda a febrero de 2021, la flota se compone de:
+            </p>
+          <ul>
+          <li>2357 buses de servicio troncal</li>
+          <li>931 buses alimentadores</li>
+          <li>6174 buses de servicio zonal.</li>
+          </ul>
+        </div>
       </div>
       
       <div class="col-6">
@@ -205,7 +204,7 @@ const modals = [
     title: "Ambiental",
     body: `
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 center-v">
         <ul>
           <li>El sector transporte en Bogotá, representa el 58% de las emisiones de GEI en la Ciudad, lo que se traduce en una emisión estimada de  0.6 toneladas de CO2eq por año por parte de los bogotanos (DNP, 2020).</li>
           <li>Para el 31 de diciembre de 2019, se habían matriculado en Bogotá 1.466 vehículos exclusivamente eléctricos, siendo tan solo el 0.06% del total de vehículos registrados en la ciudad (DNP, 2020).</li>
@@ -225,7 +224,7 @@ const modals = [
     title: "Legal",
     body: `
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 center-v">
         <ul>
           <li>A nivel nacional todos los actores viales se encuentran sujetos a lo establecido en el Código Nacional de Tránsito.</li>
           <li>El artículo 164 del Decreto 190 de 2004, del Plan de Ordenamiento Territorial establece los componentes del subsistema vial de Bogotá.</li>
@@ -247,10 +246,10 @@ const modals = [
     title: "Ciudadania",
     body: `
     <div class="row">
-      <div class="col-6">
-      <p>
-      Beneficiarios. Su calidad de vida podría mejorar al pasar menos tiempo en medios de transporte o tener formas más seguras de completar sus desplazamientos. Pueden compartir sus expectativas y aportar datos importantes para la planeación adecuada de las soluciones.
-      </p>
+      <div class="col-6 center-v">
+        <p>
+        Beneficiarios. Su calidad de vida podría mejorar al pasar menos tiempo en medios de transporte o tener formas más seguras de completar sus desplazamientos. Pueden compartir sus expectativas y aportar datos importantes para la planeación adecuada de las soluciones.
+        </p>
       </div>
       <div class="col-6">
         <img
@@ -264,10 +263,10 @@ const modals = [
     title: "Secretaría de movilidad de Bogotá",
     body: `
     <div class="row">
-      <div class="col-6">
-      <p>
-      Cooperantes. Como entidad encargada de de la movilidad de la ciudad, está en sus intereses encontrar alternativas de transporte que permitan optimizar el funcionamiento de la ciudad. Pueden compartir datos históricos de proyectos anteriores de forma que no se repitan errores y también datos sobre las deficiencias actuales del sistema.
-      </p>
+      <div class="col-6 center-v">
+        <p>
+        Cooperantes. Como entidad encargada de de la movilidad de la ciudad, está en sus intereses encontrar alternativas de transporte que permitan optimizar el funcionamiento de la ciudad. Pueden compartir datos históricos de proyectos anteriores de forma que no se repitan errores y también datos sobre las deficiencias actuales del sistema.
+        </p>
       </div>
       <div class="col-6">
         <img
@@ -281,10 +280,10 @@ const modals = [
     title: "Gremios de otros medios de transporte",
     body: `
     <div class="row">
-      <div class="col-6">
-      <p>
-      Posibles opositores. Es posible que los gremios de otros medios de transporte se vean amenazados por la inclusión de una nueva alternativa, puesto que sus ingresos y/o imagen podrían verse afectados. Si la solución planteada es un medio de transporte alternativo, pueden hacer huelgas en contra de su legalización, y si es una estrategia o plan pueden optar por no acogerse a él.
-      </p>
+      <div class="col-6 center-v">
+        <p>
+        Posibles opositores. Es posible que los gremios de otros medios de transporte se vean amenazados por la inclusión de una nueva alternativa, puesto que sus ingresos y/o imagen podrían verse afectados. Si la solución planteada es un medio de transporte alternativo, pueden hacer huelgas en contra de su legalización, y si es una estrategia o plan pueden optar por no acogerse a él.
+        </p>
       </div>
       <div class="col-6">
         <img

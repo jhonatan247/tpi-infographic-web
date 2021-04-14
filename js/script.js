@@ -193,11 +193,13 @@ const modals = [
           <li>931 buses alimentadores</li>
           <li>6174 buses de servicio zonal.</li>
           </ul>
+          
+          <div class="plus-button" onclick="showInnerModal(2)">+</div>
         </div>
       </div>
-      
       <div class="col-6">
         <img class="w-100" src="./media/tech1.png"/>
+        
       </div>`,
   },
   {
@@ -326,7 +328,41 @@ const modals = [
       </div>
     </div>
     `,
-  }
+  },
+  {
+    title: "Ana Luisa Flechas",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      Ingeniera de Transportes y Vías, especialista en transporte y ex Secretaria de Movilidad
+      </p>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="media/exp2.jfif"/>
+      </div>
+    </div>
+    `,
+  },
+  {
+    title: "ON smart mobility",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      Emprendedores en temas de movilidad de última milla
+      </p>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="media/ionLogo.jpg"/>
+      </div>
+    </div>
+    `,
+  },
 ];
 
 const innerModals = [
@@ -347,6 +383,7 @@ const innerModals = [
     </div>
     `,
   },
+
   {
     title: "Problema",
     body: `
@@ -363,7 +400,31 @@ const innerModals = [
       </div>
     </div>
     `,
-  }
+  },
+  {
+    title: "Tecnología",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      En el caso de los bicitaxis, los resultados del estudio de caracterización del bicitaxismo en Bogotá 2019 mostraron que para agosto de 2019 en Bogotá hay 4616 vehículos. pop-up
+En el caso de los taxis se informa un total cercano a 54.695 taxis registrados en la ciudad de Bogotá para enero de 2020 (Sánchez, 2020), asociados a 49.000 propietarios y 63 empresas operadoras.
+En el caso de las patinetas eléctricas en principio se autorizó el alquiler de 2.948 patinetas (SDM, 2019), y para junio de 2020 se autorizó temporalmente el alquiler de 8.000 vehículos (SDM, 2020). Sin embargo, al día de hoy se desconoce cuántas patinetas se encuentran disponibles para alquiler en las vías de la ciudad, debido al cambio de modelo de préstamo por minuto a venta de los equipos o alquiler por semana o mes adoptado por algunas empresas ante la situación de pandemia (Puentes, 2020).
+En el caso del transporte informal y otros medios de transporte no se conocen datos concretos dadas la dificultad para una cobertura adecuada sobre estos.
+
+      </p>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="./media/tech2.png"/>
+          <img
+          class="w-100"
+          src="./media/tech3.png"/>
+      </div>
+    </div>
+    `,
+  },
 ];
 
 window.showModal = function (index) {

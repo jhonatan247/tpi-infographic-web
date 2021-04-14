@@ -53,7 +53,7 @@ const modals = [
       <div class="col-6">
         <img
           class="w-100"
-          src="https://www.flaticon.es/premium-icon/icons/svg/773/773869.svg"/>
+          src="media/saludEuropa.png"/>
       </div>
     </div>
     `,
@@ -71,7 +71,7 @@ const modals = [
       <div class="col-6">
         <img
           class="w-100"
-          src="https://www.flaticon.es/premium-icon/icons/svg/773/773869.svg"/>
+          src="media/transporte_a_futuro.jpg"/>
       </div>
     </div>
     `,
@@ -247,11 +247,134 @@ const modals = [
       <div class="col-6">
         <img
           class="w-100"
-          src="https://www.flaticon.es/premium-icon/icons/svg/773/773869.svg"/>
+          src="media/legal.png"/>
       </div>
     </div>
     `,
   },
+  {
+    title: "Ciudadania",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      Beneficiarios. Su calidad de vida podría mejorar al pasar menos tiempo en medios de transporte o tener formas más seguras de completar sus desplazamientos. Pueden compartir sus expectativas y aportar datos importantes para la planeación adecuada de las soluciones.
+      </p>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="media/ciudadaniaGrande.PNG"/>
+      </div>
+    </div>
+    `,
+  },
+  {
+    title: "Secretaría de movilidad de Bogotá",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      Cooperantes. Como entidad encargada de de la movilidad de la ciudad, está en sus intereses encontrar alternativas de transporte que permitan optimizar el funcionamiento de la ciudad. Pueden compartir datos históricos de proyectos anteriores de forma que no se repitan errores y también datos sobre las deficiencias actuales del sistema.
+      </p>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="media/secMovilidad.png"/>
+      </div>
+    </div>
+    `,
+  },
+  {
+    title: "Gremios de otros medios de transporte",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      Posibles opositores. Es posible que los gremios de otros medios de transporte se vean amenazados por la inclusión de una nueva alternativa, puesto que sus ingresos y/o imagen podrían verse afectados. Si la solución planteada es un medio de transporte alternativo, pueden hacer huelgas en contra de su legalización, y si es una estrategia o plan pueden optar por no acogerse a él.
+      </p>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="media/sindicato_de_taxis.png"/>
+      </div>
+    </div>
+    `,
+  },
+  {
+    title: "ION",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      Cooperantes/Beneficiarios. Entre los intereses de ION está implementar sus prototipos de patinetas eléctricas en la ciudad de Bogotá como una alternativa de transporte, impulsados tanto por la mejora de la movilidad como por la rentabilidad de su empresa. Pueden compartir los estudios de población objetivo que realizaron para ver la viabilidad de su emprendimiento y cooperar para el desarrollo de la solución, así como para su implementación.
+      </p>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="media/ionlogo.jpg"/>
+      </div>
+    </div>
+    `,
+  },
+  {
+    title: "Problema",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      El trayecto de última milla, que hace referencia al tramo final del recorrido de una persona, resulta ser una situación desagradable para los bogotanos, debido a la inseguridad, incomodidad e ineficiencia que presentan los diferentes medios de transporte para esta etapa del recorrido. Es por esto que el uso de medios de transporte alternativos como las patinetas, bicitaxis y otros medios, en conjunto corresponden a sólo el 1,5% de las etapas de viaje de los ciudadanos (patinetas-0,1%, bicitaxis-0,4%, otros-1%). En su lugar se prefiere la caminata como principal forma de desplazamiento por etapas, correspondiente al 31% de las etapas de viaje (SDM, 2020).
+      </p>
+      <div class="plus-button" onclick="showInnerModal(1)">+</div>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="media/problematica.png"/>
+      </div>
+    </div>
+    `,
+  }
+];
+
+const innerModals = [
+  {
+    title: "Economía",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      En el caso de la inversión enfocada directamente en transporte masivo, para 2021, se cuenta con un presupuesto aproximado de $400 mil millones, la inversión asociada al mejoramiento del servicio de transporte público individual y al desincentivo del uso ineficiente del transporte privado ronda los $4.185 millones de pesos, sólo en los proyectos de construcción y conservación de vías y cicloinfraestructura para la movilidad sostenible se cuenta con un presupuesto de $1,597 billones de pesos, y el resto del presupuesto se destina a diversos proyectos de subsidios, gestión, concientización, pedagogía, regulación y señalización, entre otros.
+      </p>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="media/econo.png"/>
+      </div>
+    </div>
+    `,
+  },
+  {
+    title: "Problema",
+    body: `
+    <div class="row">
+      <div class="col-6">
+      <p>
+      Ante esta situación es necesario incentivar el uso de los medios de transporte alternativos; progresar en la tecnología constructiva de las unidades móviles; y darle uso a la gestión de la información obtenida de las variables de movilidad. Para la implementación de nuevos proyectos que optimicen y mejoren varios procesos como es el caso del transporte de última milla. En este caso se busca seguridad, comodidad y eficiencia en el servicio de transporte con la implementación de nuevos métodos y mejora de los ya existentes. Frente a lo anterior surge la pregunta, ¿Cuáles serían los mejores mecanismos en términos de movilidad que se podrían aplicar al transporte de última milla de la ciudad de Bogotá?
+      </p>
+      </div>
+      <div class="col-6">
+        <img
+          class="w-100"
+          src="media/problematica.png"/>
+      </div>
+    </div>
+    `,
+  }
 ];
 
 window.showModal = function (index) {
@@ -261,6 +384,6 @@ window.showModal = function (index) {
 };
 
 window.showInnerModal = function (index) {
-  $("#infoModalLabel").html(modals[index].title);
-  $("#infoModalBody").html(modals[index].body);
+  $("#infoModalLabel").html(innerModals[index].title);
+  $("#infoModalBody").html(innerModals[index].body);
 };

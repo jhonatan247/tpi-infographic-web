@@ -256,7 +256,7 @@ const modals = [
       <div class="col-6">
         <img
           class="w-100"
-          src="media/ciudadaniaGrande.PNG"/>
+          src="media/ciudadania.PNG"/>
       </div>
     </div>
     `,
@@ -307,7 +307,7 @@ const modals = [
       <div class="col-6">
         <img
           class="w-100"
-          src="media/ionlogo.jpg"/>
+          src="media/ionLogo.jpg"/>
       </div>
     </div>
     `,

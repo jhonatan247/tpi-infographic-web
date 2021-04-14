@@ -8,11 +8,10 @@ const modals = [
     title: "Transporte de última milla en Seúl",
     body: `
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 center-v">
         <p>
         Un estudio realizado en Seúl mostró factores de la popularidad que han ganado los modelos de scooters eléctricos compartidos en la ciudad. Comparan además, factores de tiempo de desplazamiento, tiempo de acceso y costo con medios de transporte más convencionales, como buses de última milla o incluso los desplazamientos a pie.
         </p>
-        <div class="plus-button" onclick="showInnerModal(0)">+</div>
       </div>
       <div class="col-6">
         <img
@@ -26,11 +25,10 @@ const modals = [
     title: "Bike-Sharing en Portland",
     body: `
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 center-v">
         <p>
         En Portland, Oregon, First Transit llegó a un acuerdo con Lyft para BIKETOWN, un sistema de bicicletas eléctricas compartidas. Este sistema permite la operación de 1500 bicicletas a lo largo de 30 millas cuadradas, con aproximadamente 140 estaciones en total. Este modelo, en menor o mayor medida, lo impulsan ciudades como Kansas City, San Francisco o Dayton en Estados Unidos, y múltiples ciudades más a nivel mundial.
         </p>
-        <div class="plus-button" onclick="showInnerModal(0)">+</div>
       </div>
       <div class="col-6">
         <img
@@ -44,11 +42,10 @@ const modals = [
     title: "Efectos a la salud en Europa",
     body: `
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 center-v">
         <p>
         El uso de alternativas de última milla en Europa ha impactado positivamente a la salud de los habitantes. Especialmente los desplazamientos en bicicletas (incluso eléctricas) tienen impactos positivos en la salud, ya que aumentan la cantidad de actividad física comparada con los no-usuarios. Además, estos modelos de transporte incentivan la reducción del uso de automóviles. Sin embargo, la reducción ha sido marginal en el corto plazo.
         </p>
-        <div class="plus-button" onclick="showInnerModal(0)">+</div>
       </div>
       <div class="col-6">
         <img
@@ -62,11 +59,10 @@ const modals = [
     title: "Modelos de transporte a futuro",
     body: `
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 center-v">
         <p>
         Estudios indican que, en comparación a un servicio con rutas y horarios fijos, un sistema de última milla emergente opera en una amplia diversidad de contextos. Diversos experimentos computacionales muestran que se mejoran los tiempos de espera de los pasajeros, de igual manera que sus tiempos de desplazamiento. Esto se logra haciendo uso de información del transporte masivo como hora de llegada de los trenes o buses.
         </p>
-        <div class="plus-button" onclick="showInnerModal(0)">+</div>
       </div>
       <div class="col-6">
         <img
@@ -324,11 +320,10 @@ const modals = [
     title: "Problema",
     body: `
     <div class="row">
-      <div class="col-6">
-      <p>
-      El trayecto de última milla, que hace referencia al tramo final del recorrido de una persona, resulta ser una situación desagradable para los bogotanos, debido a la inseguridad, incomodidad e ineficiencia que presentan los diferentes medios de transporte para esta etapa del recorrido. Es por esto que el uso de medios de transporte alternativos como las patinetas, bicitaxis y otros medios, en conjunto corresponden a sólo el 1,5% de las etapas de viaje de los ciudadanos (patinetas-0,1%, bicitaxis-0,4%, otros-1%). En su lugar se prefiere la caminata como principal forma de desplazamiento por etapas, correspondiente al 31% de las etapas de viaje (SDM, 2020).
-      </p>
-      <div class="plus-button" onclick="showInnerModal(1)">+</div>
+      <div class="col-6 center-v">
+        <p>
+        El trayecto de última milla, que hace referencia al tramo final del recorrido de una persona, resulta ser una situación desagradable para los bogotanos, debido a la inseguridad, incomodidad e ineficiencia que presentan los diferentes medios de transporte para esta etapa del recorrido. Es por esto que el uso de medios de transporte alternativos como las patinetas, bicitaxis y otros medios, en conjunto corresponden a sólo el 1,5% de las etapas de viaje de los ciudadanos (patinetas-0,1%, bicitaxis-0,4%, otros-1%). En su lugar se prefiere la caminata como principal forma de desplazamiento por etapas, correspondiente al 31% de las etapas de viaje (SDM, 2020).
+        </p>
       </div>
       <div class="col-6">
         <img

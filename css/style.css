@@ -1,12 +1,15 @@
 body {
   color: rgb(60, 60, 60);
+  background-color: rgba(0, 0, 0, 0);
 }
-.beauty-container {
-  border-radius: 20px;
-  padding: 20px;
-  background: #8393e7;
-  color: white;
-  margin: 10px;
+.light-container {
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(60, 60, 60);
+  background: white;
+  -webkit-box-shadow: 5px 5px 17px -10px #000000;
+  box-shadow: 5px 5px 17px -10px #000000;
+  margin-bottom: 10px;
 }
 
 .circle {
@@ -35,7 +38,8 @@ body {
   border-style: solid;
   box-shadow: none;
   border-color: white;
-  color: white;
+  color: gray;
+  background-color: white;
   font-weight: bold;
   border-width: 1px;
   width: 30px;
@@ -49,16 +53,33 @@ body {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
   text-align: center;
+  -webkit-box-shadow: 5px 5px 13px -5px #000000;
+  box-shadow: 5px 5px 13px -5px #000000;
+}
+.cursor-pointer {
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .center-v {
   display: flex;
   align-items: center;
 }
+.col-center-h {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.between-h {
+  display: flex;
+  justify-content: space-between;
+}
 
 .modal-content {
-  background: #8393e7;
-  color: white;
 }
 
 .carousel-control-prev-icon,

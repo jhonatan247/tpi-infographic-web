@@ -138,7 +138,6 @@ const modals = [
         <p>
         En materia de política pública la movilidad es uno de los principales puntos de interés de cualquier administración de la ciudad, para cuyo mejoramiento deben articularse tanto políticas previas como actuales de acuerdo con los principios adoptados según iniciativas como la iniciativa Visión Cero, y los objetivos establecidos en planes organizacionales de largo plazo como lo son el Plan Maestro de Movilidad y el Plan Distrital de Desarrollo.
         </p>
-        <div class="plus-button" onclick="showInnerModal(0)">+</div>
       </div>
       <div class="col-6">
         <img
@@ -176,7 +175,6 @@ const modals = [
         <p>
         En relación con el uso de medios de transporte diferentes a los medios motorizados convencionales para viajes intermodales es posible evidenciar que existe una adopción mínima de medios como las patinetas y bicitaxis y otros medios de transporte, los cuales en conjunto corresponden a sólo el 1,5% de las etapas de viaje de los ciudadanos, de acuerdo con los resultados de la encuesta de movilidad 2019.
         </p>
-        <div class="plus-button" onclick="showInnerModal(0)">+</div>
       </div>
       
       <div class="col-6">
@@ -197,7 +195,6 @@ const modals = [
         <li>931 buses alimentadores</li>
         <li>6174 buses de servicio zonal.</li>
         </ul>
-        <div class="plus-button" onclick="showInnerModal(0)">+</div>
       </div>
       
       <div class="col-6">
@@ -215,7 +212,6 @@ const modals = [
           <li>Existen diferentes normas en materia ambiental que promueven la adopción de tecnologías de energía renovable y estrategias de eficiencia energética, como la ley 1715 de 2014.</li>
           <!--<li>Departamento Nacional de Planeación (DNP). (15 de julio de 2020). Implementación del sistema de  transporte de cero y bajas emisiones para Bogotá. Secretaría Distrital de Movilidad. Recuperado el 20 de marzo de 2021 de <a target="blank" href="http://www.sdp.gov.co/sites/default/files/113_sdm_2020110010120_7583_0.pdf">sdp.gov.co</a></li>-->
         </ul>
-        <div class="plus-button" onclick="showInnerModal(0)">+</div>
       </div>
       <div class="col-6">
         <img
@@ -238,7 +234,6 @@ const modals = [
           <li>La resolución 3256 de 2018 del Ministerio de Transporte, reglamenta y autoriza la prestación del servicio público de transporte de pasajeros en triciclos o tricimóviles no motorizados y tricimóviles con pedaleo asistido.</li>
           <li>La resolución 336 de 2019 de la Secretaría de Movilidad, la cual regula la autorización para el préstamo de patinetas en espacios públicos.</li>-->
         </ul>
-        <div class="plus-button" onclick="showInnerModal(0)">+</div>
       </div>
       <div class="col-6">
         <img
